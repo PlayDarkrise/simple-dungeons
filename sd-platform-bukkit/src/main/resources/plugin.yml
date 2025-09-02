@@ -1,0 +1,7 @@
+name: SimpleDungeons
+version: '${project.version}' # This gets replaced by Maven during the build
+main: com.magemonkey.simpledungeons.SimpleDungeons
+api-version: '1.21'
+author: PlayDarkRise
+description: A procedural dungeon plugin.
+softdepend: [PlaceholderAPI, FastAsyncWorldEdit, WorldEdit, Citizens, MythicMobs, Divinity, Genesis]
