@@ -9,10 +9,52 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <!-- Core & Platform -->
+        <module>sd-core</module>
+        <module>sd-platform-bukkit</module>
+        <module>sd-vanilla</module>
+
+        <!-- Integrations -->
+        <module>sd-integrations-genesis</module>
+        <module>sd-integrations-mythicmobs</module>
+        <module>sd-integrations-divinity</module>
+        <module>sd-integrations-citizens</module>
+        <module>sd-integrations-illusion</module>
+        <module>sd-integrations-fawe</module>
+        <module>sd-integrations-papi</module>
+
+        <!-- Cluster -->
+        <module>sd-cluster-common</module>
+        <module>sd-worker-bukkit</module>
+        <module>sd-allocator-velocity</module>
+
+        <!-- Config, Docs, Tests, Bundle -->
+        <module>sd-config</module>
+        <module>sd-messages</module>
+        <module>sd-tests</module>
+        <module>sd-tooling</module>
+        <module>sd-bundle</module>
+    </modules>
+
     <properties>
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <repositories>
         <repository>
@@ -22,7 +64,6 @@
     </repositories>
 
     <dependencies>
-        <!-- This API version targets Paper servers running Minecraft 1.21.x (including 1.21.8) -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
@@ -30,19 +71,6 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
-                <configuration>
-                    <release>${java.version}</release>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
 

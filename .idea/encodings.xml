@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/sd-allocator-velocity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-allocator-velocity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-bundle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-bundle/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-cluster-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-cluster-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-citizens/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-citizens/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-divinity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-divinity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-fawe/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-fawe/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-genesis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-genesis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-illusion/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-illusion/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-mythicmobs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-mythicmobs/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-papi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-integrations-papi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-messages/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-messages/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-platform-bukkit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-platform-bukkit/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-tests/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-tests/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-tooling/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-tooling/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-vanilla/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-vanilla/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-worker-bukkit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sd-worker-bukkit/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
